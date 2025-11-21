@@ -1,0 +1,63 @@
+Day-1:
+=========
+
+1) Python Introduction:
+=========================
+Python is a high-level, interpreted, object-oriented programming language used for web development, data analysis, automation, AI, and scripting. It focuses on readability with simple syntax. Python supports multiple paradigms like procedural, object-oriented, and functional programming.
+
+Ex:
+print("Hello Python!")
+
+
+2) Functions in Python (print, id, type, eval, input)
+========================================================
+print() → Displays output.
+print("Welcome")
+
+id() → Returns memory address of an object.
+print(id(10))
+
+type() → Shows data type.
+print(type(3.5))
+
+eval() → Evaluates a string as Python expression.
+print(eval("10+20"))
+
+input() → Takes user input as string.
+name = input("Enter Name: ")
+
+
+3) Variables & Data Types
+============================
+Variables store data. Python is dynamically typed (no need to declare type).
+Common data types:
+
+int, float, str, bool, list, tuple, dict, set
+
+Example:
+
+x = 10        # int
+name = "Nikhil"  # str
+pi = 3.14     # float
+
+
+4) Slice Operator
+=======================
+Used to extract parts of sequences like strings, lists, or tuples.
+Syntax → sequence[start:end:step]
+Example:
+
+s = "Python"
+print(s[0:3])   # Pyt
+print(s[::-1])  # Reverse
+
+
+5) Type Casting
+===================
+Converting one data type to another.
+
+int(), float(), str(), bool()
+Example:
+
+x = "10"
+print(int(x) + 5)   # 15
